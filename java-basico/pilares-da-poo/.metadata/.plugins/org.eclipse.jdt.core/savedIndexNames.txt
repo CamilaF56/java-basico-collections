@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\Camil\Desktop\java-aws\java-basico\pilares-da-poo\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1696264553.index
+75854035.index

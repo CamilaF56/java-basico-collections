@@ -1,0 +1,16 @@
+package messenger;
+
+public class Telegram extends ServicoMensagemInstantanea{
+	@Override
+	public void enviarMensagem() {
+		// TODO Auto-generated method stub
+		super.enviarMensagem();
+		System.out.println("pelo Telegram");
+	}
+	@Override
+	public void receberMensagem() {
+		// TODO Auto-generated method stub
+		super.receberMensagem();
+		System.out.println("pelo Telegram");
+	}
+}

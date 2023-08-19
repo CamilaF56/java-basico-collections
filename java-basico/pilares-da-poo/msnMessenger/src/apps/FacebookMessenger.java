@@ -1,0 +1,17 @@
+package apps;
+
+public class FacebookMessenger extends ServicoMensagemInstantanea{
+	public void enviarMensagem() {
+		validarConectadoInternet();
+		System.out.println("Enviando mensagem pelo facebook");
+	}
+	public void receberMensagem() {
+		System.out.println("Recebendo mensagem pelo facebook");
+		salvarHistoricoMensagem();
+	}
+	
+	@Override
+	protected void salvarHistoricoMensagem() {
+		System.out.println("Salvando histórico no facebook");
+	}
+}

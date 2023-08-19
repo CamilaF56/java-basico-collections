@@ -1,0 +1,6 @@
+package messenger;
+
+public class Telegram extends ServicoMensagemInstantanea{
+
+	MSNMessenger msn = new MSNMessenger;
+}

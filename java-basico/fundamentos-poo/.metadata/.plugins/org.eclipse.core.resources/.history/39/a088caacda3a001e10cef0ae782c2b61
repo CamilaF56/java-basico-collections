@@ -1,0 +1,5 @@
+package escola;
+
+private class Aluno {
+	AlunoData data = new AlunoData();
+}

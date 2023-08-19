@@ -1,0 +1,17 @@
+package messenger;
+
+public class MSNMessenger extends ServicoMensagemInstantanea {
+	@Override
+	public void enviarMensagem() {
+		// TODO Auto-generated method stub
+		super.enviarMensagem();
+		System.out.println("pelo MSN");
+	}
+	@Override
+	public void receberMensagem() {
+		// TODO Auto-generated method stub
+		super.receberMensagem();
+		system.out.println("pelo MSN");
+	}
+	
+}

@@ -1,0 +1,32 @@
+package messenger;
+
+import java.util.Scanner;
+
+public class ComputadorPedrinho {
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		ServicoMensagemInstantanea msg = null;
+		
+		System.out.println("Digite o nome do app de mensagem que deseja escolher: Telegram, MSN e Facebook");
+		String appEscolhido = ler.nextLine();
+		
+		if(appEscolhido.equalsIgnoreCase("msn")) {
+			msg = new MSNMessenger();
+		}else if(appEscolhido.equalsIgnoreCase("facebook")) {
+			msg = new FacebookMessenger();
+		}else if(appEscolhido.equalsIgnoreCase("telegram")) {
+			msg = new Telegram();
+		}else {
+			System.out.println("ERROR: Sistema de Mensagem escolhido não encontrado");
+			return;
+		}
+		
+		
+		
+		msg.enviarMensagem();
+		msg.receberMensagem();
+		
+	}
+	
+}

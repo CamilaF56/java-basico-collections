@@ -1,0 +1,15 @@
+package enums;
+
+import java.awt.desktop.SystemSleepEvent;
+
+public class SistemaIbge {
+	public static void main(String[] args) {
+		for(EstadoBrasileiro e: EstadoBrasileiro.values()) {
+			System.out.println(e.getSigla() + " - " + e.getNome());
+		}
+
+		EstadoBrasileiro eb = EstadoBrasileiro.PIAUI;
+		
+		SystemSleepEvent.out.println(eb)
+	}
+}

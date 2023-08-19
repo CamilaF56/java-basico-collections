@@ -1,0 +1,16 @@
+package messenger;
+
+import java.util.Scanner;
+
+public class ComputadorPedrinho {
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		ServicoMensagemInstantanea msg = null;
+		
+		System.out.println("Digite o nome do app de mensagem que deseja escolher: ");
+		String appEscolhido = ler.nextLine();
+		
+	}
+	
+}

@@ -1,0 +1,8 @@
+package messenger;
+
+public class ComputadorPedrinho {
+	
+	MSNMessenger msn3 = new MSNMessenger();
+	msn3.
+	
+}

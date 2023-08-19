@@ -1,0 +1,6 @@
+package escola;
+
+private class Aluno {
+	String nome;
+	int idade;
+}

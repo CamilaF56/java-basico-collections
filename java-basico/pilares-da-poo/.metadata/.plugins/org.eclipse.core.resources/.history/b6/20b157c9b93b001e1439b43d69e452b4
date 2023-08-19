@@ -1,0 +1,14 @@
+package messenger;
+
+import java.util.Scanner;
+
+public class ComputadorPedrinho {
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		
+		ServicoMensagemInstantanea msg = null;
+		
+		String appEscolhido = ler.nextLine();
+	}
+	
+}
