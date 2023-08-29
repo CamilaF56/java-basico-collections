@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+C:\Users\Camil\Desktop\java-basico-collections\collections\.metadata\.plugins\org.eclipse.jdt.core
+197168885.index
+75854035.index
+3557054108.index
+112720350.index
+1865797976.index
+4201948818.index
