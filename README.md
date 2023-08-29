@@ -1,4 +1,4 @@
-# Java básico e Framework Collections
+# java-aws
 Repositório de estudos do bootcamp Desenvolvimento JAVA com Cloud AWS pela DIO.
 
 Curso de Collections com JAVA
